@@ -60,6 +60,7 @@ export function CyclesContextProvider({
     if (activeCycle) {
       return differenceInSeconds(new Date(), new Date(activeCycle.startDate))
     }
+    return 0
   })
 
   // Save state on Storage
